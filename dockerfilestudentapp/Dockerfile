@@ -1,6 +1,6 @@
 
 FROM centos:7 
-LABEL dev="anup"
+LABEL dev="Varsharani"
 
 ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.98/bin/apache-tomcat-8.5.98.zip /opt
 RUN unzip apache-tomcat-8.5.98.zip  /opt
